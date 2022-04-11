@@ -28,6 +28,16 @@ background: rgba(64, 130, 180, 0.5);
 backdrop-filter: blur(10px);
 border: 1px solid rgba(255,255,255,0.25);
 }
+
+#navClick {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.5);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.25);
+  border-image: initial;
+}
+
 .nav ul {
   list-style: none;
   text-align: center;
@@ -51,7 +61,7 @@ border: 1px solid rgba(255,255,255,0.25);
 }
 
 .nav a:hover {
-  background-color: #005f5f;
+  background-color: #6ec1f8;
 }
 
 /*.nav a.active {
